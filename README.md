@@ -9,15 +9,15 @@ Always learning, always leveling up!
 
 - 👨‍💻 Currently a student passionate about building cool things and improving every day.
 - 💡 I love to code in **C#**, **Java**, **JavaScript**, and especially with **Discord.js**.
-- 🎮 Gaming enthusiast and open-source supporter.
+- 🎮 Gaming enthusiast for develop game.
 - 📈 Always learning and becoming more professional—with each project, commit, and collaboration.
 
 ---
 
 ## 🛠️ Top Skills
 
-- **Languages:** C#, Java, JavaScript
-- **Frameworks:** Discord.js, Node.js
+- **Languages:** C#, Java, JavaScript/TypeScript, SQL, HTML, CSS
+- **Frameworks:** Discord.js, Node.js, ASP.NET Core, Spring Boot, .NET Core
 - **Cloud:** Azure Functions
 - **Other:** Bot development, API integration
 
