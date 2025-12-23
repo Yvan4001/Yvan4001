@@ -1,47 +1,56 @@
-# Hi there, I'm Yvan Simon 👋
+# Hi there, I'm Yvan Simon 👋 
+### Software Engineer | Systems & Game Engine Specialist | .NET Expert
 
-**Student & Developer**  
-Always learning, always leveling up!
+> "I don't just use engines and frameworks; I deconstruct them to understand how they breathe."
 
 ---
 
 ## 🚀 About Me
+I am a developer driven by **performance, low-level architecture, and complex problem-solving**. My journey is defined by a **'Deep Dive' approach**: I tackle the most difficult challenges first to master the core principles of computing. 
 
-- 👨‍💻 Currently a student passionate about building cool things and improving every day.
-- 💡 I love to code in **C#**, **Java**, **JavaScript**, and especially with **Discord.js**.
-- 🎮 Gaming enthusiast for develop game.
-- 📈 Always learning and becoming more professional—with each project, commit, and collaboration.
+As a **neuroatypical developer**, I leverage my "asynchronous brain" to process complex information through unique angles, allowing for high-level architectural oversight and creative debugging.
 
 ---
 
-## 🛠️ Top Skills
-
-- **Languages:** C#, Java, JavaScript/TypeScript, SQL, HTML, CSS
-- **Frameworks:** Discord.js, Node.js, ASP.NET Core, Spring Boot, .NET Core
-- **Cloud:** Azure Functions
-- **Other:** Bot development, API integration
+## 🛠️ Technical Arsenal
+* **Languages:** C# (6+ years), Java, Rust, Assembly (x86/x64), JavaScript/TypeScript, SQL.
+* **Core Tech:** .NET 8 / ASP.NET Core, Spring Boot, Node.js, Azure Cloud.
+* **Engines:** Unity (Engine extension, Procedural systems), Unreal Engine.
+* **Specialties:** Asynchronous Programming, Security (JWT/AES/CSRF), Procedural Generation, Network Synchronization.
 
 ---
 
-## 🌟 Featured Projects
+## 🌟 Key Achievements (Private Repositories)
+*Since my core research and source codes are kept private, here is a summary of my architectural work:*
 
-| Project                                          | Description                              |
-| ------------------------------------------------ | ---------------------------------------- |
-| [Discord Bot](https://github.com/Yvan4001/bot_discord) | Multipurpose bot for Discord             |
-| [Music Bot](https://github.com/Yvan4001/bot_discord_music) | Play music in Discord servers            |
-| [Azure Function](https://github.com/Yvan4001/azure_function) | Serverless functions on Azure            |
-| [Nintendo News Bot](https://github.com/Yvan4001/bot_discord_news_nitendo) | Get the latest Nintendo news on Discord  |
-| [Vulnerability Bot](https://github.com/Yvan4001/bot_discord_vunerability) | Stay updated on security vulnerabilities |
+### 🧠 Game Theory & AI: Java-based Tic-Tac-Toe AI
+* **The Challenge:** Developed a highly optimized AI for Tic-Tac-Toe specifically in **Java**, filling a gap where most resources only exist in Python.
+* **Technicality:** Implementation of the Minimax algorithm with alpha-beta pruning, optimized for the JVM environment.
+
+### 🌌 Voxel-based Procedural Planet Renderer (Unity/C#)
+* **The Challenge:** Creating infinite diverse worlds without manual assets.
+* **Technicality:** Heavy use of Perlin Noise and cellular automata. Rewrote native Unity physics tools to handle procedural mesh collisions in real-time.
+
+### 💻 FluxGridOS: Rust System Kernel
+* **The Challenge:** Building an OS from scratch.
+* **Technicality:** Developed an ASM Bootloader, a proprietary USB stack, and a custom Memory Management Unit (MMU) in **Rust (no_std)**.
+
+### 🔐 Secure E-Commerce Core API (.NET 8)
+* **The Challenge:** Massive refactoring of a legacy synchronous system into a fully asynchronous architecture (80+ files).
+* **Security:** Implemented Double Submit Cookies, JWT rotation, and AES encryption for sensitive data.
+
+---
+
+## 📈 Stats & Activity
+*6 years of daily commits in private repositories focused on R&D and Professionalism.*
+
+[Lien vers ton image de stats GitHub si tu en as une, ou ton Portfolio]
 
 ---
 
 ## 📫 Connect with Me
+* **Portfolio:** [https://data.sivagames.com/home]
+* **LinkedIn:** [https://www.linkedin.com/in/yvan-simon-448b11153/]
+* **Email:** [yvan.simmon3@pm.me]
 
-- [LinkedIn](https://www.linkedin.com/in/yvan-simon-448b11153)
-- [Personal Website](https://data.sivagames.com)
-
----
-
-> **“Always learning and becoming more professional.”**
-
-Feel free to check out my projects, connect, or just say hi!
+*"Always learning, always leveling up. From the kernel to the cloud."*
