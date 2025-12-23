@@ -44,7 +44,7 @@ As a **neuroatypical developer**, I leverage my "asynchronous brain" to process 
 ## 📈 Stats & Activity
 *6 years of daily commits in private repositories focused on R&D and Professionalism.*
 
-[Lien vers ton image de stats GitHub si tu en as une, ou ton Portfolio]
+[https://data.sivagames.com/home]
 
 ---
 
