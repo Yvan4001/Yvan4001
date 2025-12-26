@@ -51,6 +51,6 @@ As a **neuroatypical developer**, I leverage my "asynchronous brain" to process 
 ## 📫 Connect with Me
 * **Portfolio:** [https://data.sivagames.com/home]
 * **LinkedIn:** [https://www.linkedin.com/in/yvan-simon-448b11153/]
-* **Email:** [yvan.simmon3@pm.me]
+* **Email:** [y.simon@sivagames.com]
 
 *"Always learning, always leveling up. From the kernel to the cloud."*
