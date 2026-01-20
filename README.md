@@ -41,12 +41,6 @@ While my commercial code (SivaGames®) is proprietary, I maintain several **Show
 
 ---
 
-## 📊 Activity & Impact
-
-![Yvan's GitHub stats](https://github-readme-stats.vercel.app/api?username=Yvan4001&show_icons=true&theme=dark&hide_border=true&count_private=true)
-
----
-
 ## 📫 Connect & Explore
 
 * 🌐 **Interactive Portfolio V5:** [data.sivagames.com](https://data.sivagames.com/home) *(Detailed case studies & visuals)*
