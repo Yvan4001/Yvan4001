@@ -54,7 +54,7 @@ While some of my commercial code is proprietary, I maintain showcase repositorie
 
 ---
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Yvan4001&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=F0F6FC&text_color=8B949E)
+![GitHub Metrics](https://raw.githubusercontent.com/Yvan4001/Yvan4001/main/github-metrics.svg)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Yvan4001&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=8B949E)
 
 *"Always learning, always leveling up. From the kernel to the cloud."*
