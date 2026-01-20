@@ -1,56 +1,56 @@
-# Hi there, I'm Yvan Simon 👋 
-### Software Engineer | Systems & Game Engine Specialist | .NET Expert
+# Hi there, I'm Yvan Simon 👋
 
-> "I don't just use engines and frameworks; I deconstruct them to understand how they breathe."
+### Software Architect & Systems Engineer | Rust & .NET Expert
+*Founder of SivaGames® | R&D Enthusiast*
+
+> *"I don't just use engines and frameworks; I deconstruct them to understand how they breathe."*
+
+[![Portfolio V5](https://img.shields.io/badge/🚀_Live_Portfolio-V5_Interactive-blue?style=for-the-badge)](https://data.sivagames.com/home)
 
 ---
 
-## 🚀 About Me
-I am a developer driven by **performance, low-level architecture, and complex problem-solving**. My journey is defined by a **'Deep Dive' approach**: I tackle the most difficult challenges first to master the core principles of computing. 
+## ⚡ Engineering Philosophy
 
-As a **neuroatypical developer**, I leverage my "asynchronous brain" to process complex information through unique angles, allowing for high-level architectural oversight and creative debugging.
+I am a **Software Architect** driven by performance and "Security by Design". My approach is simple: **Deep Dive**. I built my own OS kernel and game engine to master the hardware, then applied that rigor to secure cloud architectures.
+
+**Current Status:** 🟢 Open to opportunities in **Switzerland** & **Canada**.
+
+---
+
+## 📂 Architectural Showcases (Open Source / R&D)
+
+While my commercial code (SivaGames®) is proprietary, I maintain several **Showcase Repositories** to demonstrate my architectural patterns and coding standards.
+
+| Category | Project Name | Tech Stack | Key Architectural Concepts |
+| :--- | :--- | :--- | :--- |
+| 🛡️ **Web & Sec** | **[Secure E-Commerce Core](https://github.com/Yvan4001/api-sivagames-showcase)** | .NET 8, AES-256, React | Async patterns, Blind Indexing (GDPR), PCI-DSS Logic. |
+| 💻 **System** | **[FluxGridOS Kernel](https://github.com/Yvan4001/FluxGridOS-Showcase)** | Rust, Assembly, C | Memory Paging, Custom Bootloader, Interrupt Handling. |
+| 🧠 **AI & Game** | Java, Q-Learning | Minimax optimization, Alpha-beta pruning, JVM Tuning. |
+| 🌍 **Engine** | **[Voxel Proc-Gen](https://github.com/Yvan4001/procedural_planet)** | Unity, C#, HLSL | Compute Shaders, Mesh generation, Cellular Automata. |
 
 ---
 
 ## 🛠️ Technical Arsenal
-* **Languages:** C# (6+ years), Java, Rust, Assembly (x86/x64), JavaScript/TypeScript, SQL.
-* **Core Tech:** .NET 8 / ASP.NET Core, Spring Boot, Node.js, Azure Cloud.
-* **Engines:** Unity (Engine extension, Procedural systems), Unreal Engine.
-* **Specialties:** Asynchronous Programming, Security (JWT/AES/CSRF), Procedural Generation, Network Synchronization.
+
+| Domain | Technologies |
+| :--- | :--- |
+| **Low-Level** | **Rust** (no_std), **Assembly** (x86/x64), C++ |
+| **Backend** | **C# .NET 8**, ASP.NET Core, Java (Spring), Node.js |
+| **Infrastructure** | Linux (Debian/Arch), Nginx, Docker, Azure Cloud |
+| **Security** | Custom AES-256, JWT Rotation, OAuth2, Rate Limiting |
 
 ---
 
-## 🌟 Key Achievements (Private Repositories)
-*Since my core research and source codes are kept private, here is a summary of my architectural work:*
+## 📊 Activity & Impact
 
-### 🧠 Game Theory & AI: Java-based Tic-Tac-Toe AI
-* **The Challenge:** Developed a highly optimized AI for Tic-Tac-Toe specifically in **Java**, filling a gap where most resources only exist in Python.
-* **Technicality:** Implementation of the Minimax algorithm with alpha-beta pruning, optimized for the JVM environment.
-
-### 🌌 Voxel-based Procedural Planet Renderer (Unity/C#)
-* **The Challenge:** Creating infinite diverse worlds without manual assets.
-* **Technicality:** Heavy use of Perlin Noise and cellular automata. Rewrote native Unity physics tools to handle procedural mesh collisions in real-time.
-
-### 💻 FluxGridOS: Rust System Kernel
-* **The Challenge:** Building an OS from scratch.
-* **Technicality:** Developed an ASM Bootloader, a proprietary USB stack, and a custom Memory Management Unit (MMU) in **Rust (no_std)**.
-
-### 🔐 Secure E-Commerce Core API (.NET 8)
-* **The Challenge:** Massive refactoring of a legacy synchronous system into a fully asynchronous architecture (80+ files).
-* **Security:** Implemented Double Submit Cookies, JWT rotation, and AES encryption for sensitive data.
+![Yvan's GitHub stats](https://github-readme-stats.vercel.app/api?username=Yvan4001&show_icons=true&theme=dark&hide_border=true&count_private=true)
 
 ---
 
-## 📈 Stats & Activity
-*6 years of daily commits in private repositories focused on R&D and Professionalism.*
+## 📫 Connect & Explore
 
-[https://data.sivagames.com/home]
+* 🌐 **Interactive Portfolio V5:** [data.sivagames.com](https://data.sivagames.com/home) *(Detailed case studies & visuals)*
+* 💼 **LinkedIn:** [linkedin.com/in/yvan-simon](https://www.linkedin.com/in/yvan-simon-448b11153/)
+* 📧 **Email:** [y.simon@sivagames.com](mailto:y.simon@sivagames.com)
 
----
-
-## 📫 Connect with Me
-* **Portfolio:** [https://data.sivagames.com/home]
-* **LinkedIn:** [https://www.linkedin.com/in/yvan-simon-448b11153/]
-* **Email:** [y.simon@sivagames.com]
-
-*"Always learning, always leveling up. From the kernel to the cloud."*
+> *"Always learning, always leveling up. From the kernel to the cloud."*
