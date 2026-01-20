@@ -1,50 +1,60 @@
-# Hi there, I'm Yvan Simon 👋
+# Hi, I'm Yvan Simon 👋
 
 ### Software Architect & Systems Engineer | Rust & .NET Expert
-*Founder of SivaGames® | R&D Enthusiast*
+**M.Sc. Computer Science Candidate (2026)**
+*"I don't just use engines; I deconstruct them to understand how they breathe."*
 
-> *"I don't just use engines and frameworks; I deconstruct them to understand how they breathe."*
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/yvan-simon-448b11153/)
+[![Email](https://img.shields.io/badge/Email-Contact_Me-red?style=for-the-badge&logo=gmail)](mailto:y.simon@sivagames.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-V5_Interactive-black?style=for-the-badge&logo=vercel)](https://data.sivagames.com)
 
-[![Portfolio V5](https://img.shields.io/badge/🚀_Live_Portfolio-V5_Interactive-blue?style=for-the-badge)](https://data.sivagames.com/home)
+[![Current Status](https://img.shields.io/badge/🟢_Current_Status-Open_to_opportunities_in_Switzerland_🇨🇭_&_Canada_🇨🇦-2ea44f?style=flat-square)](#)
 
 ---
 
 ## ⚡ Engineering Philosophy
 
-I am a **Software Architect** driven by performance and "Security by Design". My approach is simple: **Deep Dive**. I built my own OS kernel and game engine to master the hardware, then applied that rigor to secure cloud architectures.
-
-**Current Status:** 🟢 Open to opportunities in **Switzerland** & **Canada**.
-
----
-
-## 📂 Architectural Showcases (Open Source / R&D)
-
-While my commercial code (SivaGames®) is proprietary, I maintain several **Showcase Repositories** to demonstrate my architectural patterns and coding standards.
-
-| Category | Project Name | Tech Stack | Key Architectural Concepts |
-| :--- | :--- | :--- | :--- |
-| 🛡️ **Web & Sec** | **[Secure E-Commerce Core](https://github.com/Yvan4001/api-sivagames-showcase)** | .NET 8, AES-256, React | Async patterns, Blind Indexing (GDPR), PCI-DSS Logic. |
-| 💻 **System** | **[FluxGridOS Kernel](https://github.com/Yvan4001/FluxGridOS-Showcase)** | Rust, Assembly, C | Memory Paging, Custom Bootloader, Interrupt Handling. |
-| 🧠 **AI & Game** | Java, Q-Learning | Minimax optimization, Alpha-beta pruning, JVM Tuning. |
-| 🌍 **Engine** | **[Voxel Proc-Gen](https://github.com/Yvan4001/procedural_planet)** | Unity, C#, HLSL | Compute Shaders, Mesh generation, Cellular Automata. |
+I am a **Systems Architect** driven by performance optimization and "Security by Design". My approach is simple: **Deep Dive**. I build my own OS kernels to master the hardware constraints, then apply that rigorous low-level logic to design secure, scalable cloud architectures.
 
 ---
 
 ## 🛠️ Technical Arsenal
 
-| Domain | Technologies |
+| Domain | Stack & Tools |
 | :--- | :--- |
-| **Low-Level** | **Rust** (no_std), **Assembly** (x86/x64), C++ |
-| **Backend** | **C# .NET 8**, ASP.NET Core, Java (Spring), Node.js |
-| **Infrastructure** | Linux (Debian/Arch), Nginx, Docker, Azure Cloud |
-| **Security** | Custom AES-256, JWT Rotation, OAuth2, Rate Limiting |
+| **💀 Low-Level & Systems** | ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) ![Assembly](https://img.shields.io/badge/Assembly_x86-555555?style=flat-square&logo=intel&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) |
+| **☁️ Cloud & Backend** | ![.NET](https://img.shields.io/badge/.NET_8-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) |
+| **🛡️ Security & Data** | ![Security](https://img.shields.io/badge/AES--256-Success?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
 
 ---
 
-## 📫 Connect & Explore
+## 📂 Architectural Showcases
 
-* 🌐 **Interactive Portfolio V5:** [data.sivagames.com](https://data.sivagames.com/home) *(Detailed case studies & visuals)*
-* 💼 **LinkedIn:** [linkedin.com/in/yvan-simon](https://www.linkedin.com/in/yvan-simon-448b11153/)
-* 📧 **Email:** [y.simon@sivagames.com](mailto:y.simon@sivagames.com)
+While some of my commercial code is proprietary, I maintain showcase repositories to demonstrate my architectural patterns.
 
-> *"Always learning, always leveling up. From the kernel to the cloud."*
+### 1. ⚙️ FluxGridOS (System Kernel)
+> *Writing an Operating System from scratch in Rust & Assembly.*
+* **Architecture:** Monolithic kernel with modular driver support.
+* **Key Features:** Custom Bootloader (ASM), Paging/MMU implementation, VGA Driver, Interrupt Descriptor Table (IDT) handling.
+* **Goal:** Understanding memory safety and hardware abstraction at the metal level.
+* **Tech:** `Rust (no_std)`, `x86_64 Assembly`, `QEMU`.
+
+### 2. 🌐 SivaGames Ecosystem (Distributed Middleware)
+> *High-Availability Microservices Ecosystem handling real-time data for 45+ servers.*
+* **Architecture:** Distributed Node.js microservices managed via PM2/Docker on Azure Linux.
+* **Resilience:** Implemented **API Failover** (Jikan/AniList fallback), **Circuit Breaker** patterns, and **TTL Caching** strategies to handle high traffic loads.
+* **Security:** Centralized secret management (Azure Key Vault) and strict Rate Limiting policies.
+* **Tech:** `Node.js`, `MongoDB`, `REST/GraphQL Aggregation`.
+
+### 3. 💳 Secure E-Commerce Core (.NET)
+> *Banking-grade backend API focusing on compliance and security.*
+* **Architecture:** Clean Architecture (Domain-Driven Design) with .NET 8.
+* **Security:** AES-256 Encryption for PII data, Blind Indexing for GDPR compliance, and PCI-DSS logic implementation.
+* **Tech:** `C# .NET 8`, `Entity Framework`, `SQL Server`, `JWT Rotation`.
+
+---
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Yvan4001&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=F0F6FC&text_color=8B949E)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Yvan4001&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=8B949E)
+
+*"Always learning, always leveling up. From the kernel to the cloud."*
