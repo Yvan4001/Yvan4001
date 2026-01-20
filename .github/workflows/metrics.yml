@@ -1,0 +1,38 @@
+name: Metrics
+on:
+  # Update every 24 hours
+  schedule: [{cron: "0 0 * * *"}]
+  # Allow manual trigger
+  workflow_dispatch:
+  # Update on push to master/main
+  push: {branches: ["master", "main"]}
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          
+          # Options
+          user: Yvan4001
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Europe/Paris
+          
+          # C'est ICI que la magie opère pour les stats privées
+          committer_token: ${{ secrets.METRICS_TOKEN }} 
+          
+          # Plugins (Configuration Architecte)
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugin_languages: yes
+          plugin_languages_ignored: >-
+            html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
+            gnuplot
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+          plugin_languages_threshold: 0%
