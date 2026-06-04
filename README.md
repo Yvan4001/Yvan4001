@@ -1,59 +1,65 @@
-# Hi, I'm Yvan Simon 👋
+# Yvan Simon
 
 ### Software Architect & Systems Engineer | Rust & .NET Expert
 **M.Sc. Computer Science Candidate (2026)**
-*"I don't just use engines; I deconstruct them to understand how they breathe."*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/yvan-simon-448b11153/)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-red?style=for-the-badge&logo=gmail)](mailto:y.simon@sivagames.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-V5_Interactive-black?style=for-the-badge&logo=vercel)](https://data.sivagames.com)
-
-[![Current Status](https://img.shields.io/badge/🟢_Current_Status-Open_to_opportunities_in_Switzerland_🇨🇭_&_Canada_🇨🇦-2ea44f?style=flat-square)](#)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/yvan-simon-448b11153/)
+[![Email](https://img.shields.io/badge/Email-Contact-red?style=flat-square&logo=gmail)](mailto:y.simon@sivagames.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Interactive-black?style=flat-square&logo=vercel)](https://data.sivagames.com)
+[![Status](https://img.shields.io/badge/Status-Open_to_opportunities_in_CH_🇨🇭_&_CA_🇨🇦-2ea44f?style=flat-square)](#)
 
 ---
 
 ## ⚡ Engineering Philosophy
 
-I am a **Systems Architect** driven by performance optimization and "Security by Design". My approach is simple: **Deep Dive**. I build my own OS kernels to master the hardware constraints, then apply that rigorous low-level logic to design secure, scalable cloud architectures.
+I bridge the gap between **low-level hardware constraints** and **high-availability cloud architectures**. By deconstructing systems down to the compiler and kernel levels, I design software that is secure by design, highly predictable, and optimized for bare-metal performance. My focus centers on memory safety, distributed system resilience, and strict language engineering.
 
 ---
 
-## 🛠️ Technical Arsenal
+## 🛠️ Technical Expertise
 
-| Domain | Stack & Tools |
+| Domain | Technologies & Tools |
 | :--- | :--- |
-| **💀 Low-Level & Systems** | ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) ![Assembly](https://img.shields.io/badge/Assembly_x86-555555?style=flat-square&logo=intel&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) |
-| **☁️ Cloud & Backend** | ![.NET](https://img.shields.io/badge/.NET_8-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) |
-| **🛡️ Security & Data** | ![Security](https://img.shields.io/badge/AES--256-Success?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
+| **Systems & Low-Level** | `Rust (no_std)` • `C++` • `x86_64 Assembly` • `QEMU` |
+| **Cloud & Backend** | `.NET 8 (C#)` • `Node.js` • `REST` • `GraphQL` • `EF Core` |
+| **Infrastructure & Security** | `Azure` • `Docker` • `CI/CD` • `SQL Server` • `MongoDB` |
+| **Security Standards** | Cryptography (AES-256) • Blind Indexing • GDPR • OWASP Top 10 |
 
 ---
 
 ## 📂 Architectural Showcases
 
-While some of my commercial code is proprietary, I maintain showcase repositories to demonstrate my architectural patterns.
+### 1. FluxSharp | *Custom Object-Oriented Programming Language* ⚖️ `MIT License`
+An open-source, compiled, and type-safe programming language engineered to combine high-level object-oriented expressiveness with predictable, secure execution.
+* **Compiler Architecture:** Built entirely in Rust, implementing a robust multi-stage compilation pipeline—from lexical analysis and custom AST parsing to native code generation.
+* **Security & Type Safety:** Engineered a strong static type system with automatic bounds checking and compile-time verification, eliminating common runtime memory vulnerabilities by design.
+* **Language Features:** Features a clear syntax inspired by C# and Rust, offering robust support for explicit class-based structures, standard control flows, static array allocation, and native asynchronous paradigms.
+* **Tech Stack:** `Rust`, `Cargo`, `Bash` (Compiler Core).
 
-### 1. ⚙️ FluxGridOS (System Kernel)
-> *Writing an Operating System from scratch in Rust & Assembly.*
-* **Architecture:** Monolithic kernel with modular driver support.
-* **Key Features:** Custom Bootloader (ASM), Paging/MMU implementation, VGA Driver, Interrupt Descriptor Table (IDT) handling.
-* **Goal:** Understanding memory safety and hardware abstraction at the metal level.
-* **Tech:** `Rust (no_std)`, `x86_64 Assembly`, `QEMU`.
+### 2. FluxGridOS | *Custom x86_64 Kernel*
+Development of a monolithic operating system kernel built from scratch to master hardware abstraction, low-level scheduling, and memory management without a standard library.
+* **Low-Level Engineering:** Implemented a custom bootloader, virtual memory paging (MMU), Interrupt Descriptor Table (IDT) handling, and a basic VGA driver.
+* **Safety First:** Leveraged Rust's strict compile-time guarantees in a `no_std` environment to prevent undefined behaviors at the metal layer.
+* **Tech Stack:** `Rust`, `x86_64 Assembly`, `QEMU`.
 
-### 2. 🌐 SivaGames Ecosystem (Distributed Middleware)
-> *High-Availability Microservices Ecosystem handling real-time data for 45+ servers.*
-* **Architecture:** Distributed Node.js microservices managed via PM2/Docker on Azure Linux.
-* **Resilience:** Implemented **API Failover** (Jikan/AniList fallback), **Circuit Breaker** patterns, and **TTL Caching** strategies to handle high traffic loads.
-* **Security:** Centralized secret management (Azure Key Vault) and strict Rate Limiting policies.
-* **Tech:** `Node.js`, `MongoDB`, `REST/GraphQL Aggregation`.
+### 3. SivaGames Ecosystem | *High-Availability Distributed Middleware*
+Architected and deployed a resilient microservices ecosystem processing real-time data aggregation across 45+ production servers.
+* **Resilience Patterns:** Designed and integrated Circuit Breakers, automated API Failover mechanics, and TTL multi-tier caching to absorb high traffic spikes.
+* **Cloud Security:** Centralized secret management utilizing Azure Key Vault, enforced strict rate-limiting policies, and containerized services via Docker.
+* **Tech Stack:** `Node.js`, `MongoDB`, `Azure Linux`, `PM2`, `Docker`.
 
-### 3. 💳 Secure E-Commerce Core (.NET)
-> *Banking-grade backend API focusing on compliance and security.*
-* **Architecture:** Clean Architecture (Domain-Driven Design) with .NET 8.
-* **Security:** AES-256 Encryption for PII data, Blind Indexing for GDPR compliance, and PCI-DSS logic implementation.
-* **Tech:** `C# .NET 8`, `Entity Framework`, `SQL Server`, `JWT Rotation`.
+### 4. Secure E-Commerce Core | *Banking-Grade .NET Backend*
+A robust, secure-by-design API built with a strong focus on enterprise compliance, data privacy, and strict software patterns.
+* **Domain-Driven Design (DDD):** Structured around Clean Architecture principles to isolate business logic from infrastructure frameworks.
+* **Data Privacy & Compliance:** Implemented AES-256 encryption for PII, blind indexing for fast and secure GDPR-compliant database queries, and tokenized JWT rotation.
+* **Tech Stack:** `C# .NET 8`, `Entity Framework Core`, `SQL Server`.
 
 ---
 
+## 📈 Activity & Metrics
+
 ![GitHub Metrics](https://raw.githubusercontent.com/Yvan4001/Yvan4001/main/github-metrics.svg)
 
-*"Always learning, always leveling up. From the kernel to the cloud."*
+---
+
+*"From bare-metal constraints to distributed cloud scale."*
